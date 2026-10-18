@@ -1,0 +1,5 @@
+.DS_Store
+firmware/smart_car_knob_v1/build-*/
+firmware/smart_car_knob_v1/backups/
+*.elf
+*.map
