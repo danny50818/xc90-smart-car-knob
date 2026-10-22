@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="560" viewBox="0 0 960 560" role="img" aria-labelledby="title desc">
+  <title id="title">10 Pin FPC 轉接板電源接線圖</title>
+  <desc id="desc">從轉接板正面觀看，凸起的 FPC 插座朝下，Pin 1 接正 5V，Pin 3 接地。</desc>
+  <defs>
+    <linearGradient id="board" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#176b47"/><stop offset="1" stop-color="#0b3e2a"/>
+    </linearGradient>
+    <filter id="glow"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="960" height="560" rx="28" fill="#0b0d10"/>
+  <text x="480" y="48" fill="#f4f7fb" font-family="Arial, sans-serif" font-size="26" font-weight="700" text-anchor="middle">10 Pin／0.5 mm FFC/FPC 電源接線</text>
+  <text x="480" y="80" fill="#9ba7b4" font-family="Arial, sans-serif" font-size="17" text-anchor="middle">觀察方向：轉接板正面，凸起的 FPC 插座朝下，排線由下方插入</text>
+  <rect x="180" y="112" width="600" height="326" rx="22" fill="url(#board)" stroke="#53d59a" stroke-width="3"/>
+  <text x="480" y="142" fill="#b9f6d7" font-family="Arial, sans-serif" font-size="18" text-anchor="middle">轉接／測試板正面</text>
+  <g font-family="Arial, sans-serif" text-anchor="middle">
+    <g fill="#dce7e1" font-size="15">
+      <text x="246" y="194">10</text><text x="298" y="194">9</text><text x="350" y="194">8</text><text x="402" y="194">7</text><text x="454" y="194">6</text>
+      <text x="506" y="194">5</text><text x="558" y="194">4</text><text x="610" y="194">3</text><text x="662" y="194">2</text><text x="714" y="194">1</text>
+    </g>
+    <g stroke="#d6a94d" stroke-width="5">
+      <line x1="246" y1="207" x2="246" y2="344"/><line x1="298" y1="207" x2="298" y2="344"/><line x1="350" y1="207" x2="350" y2="344"/><line x1="402" y1="207" x2="402" y2="344"/><line x1="454" y1="207" x2="454" y2="344"/>
+      <line x1="506" y1="207" x2="506" y2="344"/><line x1="558" y1="207" x2="558" y2="344"/><line x1="610" y1="207" x2="610" y2="344"/><line x1="662" y1="207" x2="662" y2="344"/><line x1="714" y1="207" x2="714" y2="344"/>
+    </g>
+    <circle cx="610" cy="212" r="16" fill="#111820" stroke="#53d7ff" stroke-width="4" filter="url(#glow)"/>
+    <circle cx="714" cy="212" r="16" fill="#271113" stroke="#ff5964" stroke-width="4" filter="url(#glow)"/>
+    <text x="610" y="247" fill="#6fe0ff" font-size="14" font-weight="700">GND</text>
+    <text x="714" y="247" fill="#ff7d86" font-size="14" font-weight="700">+5V</text>
+  </g>
+  <rect x="214" y="326" width="532" height="96" rx="16" fill="#e7e9e8" stroke="#f8ffff" stroke-width="3"/>
+  <rect x="242" y="345" width="476" height="42" rx="8" fill="#272d32"/>
+  <g stroke="#d6a94d" stroke-width="6">
+    <line x1="246" y1="345" x2="246" y2="389"/><line x1="298" y1="345" x2="298" y2="389"/><line x1="350" y1="345" x2="350" y2="389"/><line x1="402" y1="345" x2="402" y2="389"/><line x1="454" y1="345" x2="454" y2="389"/>
+    <line x1="506" y1="345" x2="506" y2="389"/><line x1="558" y1="345" x2="558" y2="389"/><line x1="610" y1="345" x2="610" y2="389"/><line x1="662" y1="345" x2="662" y2="389"/><line x1="714" y1="345" x2="714" y2="389"/>
+  </g>
+  <text x="480" y="414" fill="#31363a" font-family="Arial, sans-serif" font-size="15" font-weight="700" text-anchor="middle">凸起 FPC 插座／排線從下方插入</text>
+  <path d="M714 212 C820 212 820 165 870 165" fill="none" stroke="#ff5964" stroke-width="5"/>
+  <text x="876" y="224" fill="#ff7d86" font-family="Arial, sans-serif" font-size="23" font-weight="700" text-anchor="end">Pin 1  +5V</text>
+  <text x="876" y="248" fill="#d2dae2" font-family="Arial, sans-serif" font-size="14" text-anchor="end">電源正極</text>
+  <path d="M610 212 C610 105 100 105 100 228" fill="none" stroke="#53d7ff" stroke-width="5"/>
+  <text x="86" y="248" fill="#6fe0ff" font-family="Arial, sans-serif" font-size="23" font-weight="700">Pin 3  GND</text>
+  <text x="86" y="272" fill="#d2dae2" font-family="Arial, sans-serif" font-size="14">電源負極／接地</text>
+  <text x="480" y="486" fill="#ffcc66" font-family="Arial, sans-serif" font-size="18" font-weight="700" text-anchor="middle">翻到背面時左右會鏡像反轉；其他腳位未確認，請勿接入 5V</text>
+  <text x="480" y="520" fill="#9ba7b4" font-family="Arial, sans-serif" font-size="15" text-anchor="middle">通電前請用萬用表再次確認 Pin 1 與 Pin 3 的極性</text>
+</svg>
